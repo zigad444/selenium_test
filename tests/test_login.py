@@ -17,7 +17,7 @@ def test_title_page(driver):
         logger.info('Title found')
         assert True
     else:
-        logger.info('Title missing')
+        logger.info('Title missing again')
         assert False
 
 def test_valid_login(driver):
