@@ -10,7 +10,7 @@ def driver():
     options.add_argument("--disable-notifications")
     options.add_argument("--disable-media-stream")  # Disable microphone/camera
     options.add_argument("--log-level=3")  # Suppresses most logs
-    #options.add_argument("--headless")
+    options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
     try:
         yield driver
